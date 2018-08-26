@@ -1,0 +1,1 @@
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty3 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes quite rootwait logo.nologo consoleblank=0 loglevel=3 smsc95xx.macaddr=20:11:22:33:44:55

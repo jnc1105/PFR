@@ -1,0 +1,39 @@
+The current release version of the Disguised Technologies WAP is v1.0:
+* created mini image with raspbian
+* installed lighttpd, php
+* compiled hostapd from source
+* created website template, and framework
+* created home page with status information
+* created configuration page with timezone and ntp information
+* created configuration page to switch operation mode between access point and router mode
+* created configuration page to modify basic network parameters
+* Created configuration page to modify basic wireless parameters
+
+Release v1.1:
+* Implemented Captive portal (coovachilli)
+
+Release v1.2: 
+* Partial Advanced Wireless form implementation
+* Included link to github page on home page
+* Implemented the ability to reboot the AP
+* Implemented factory default config
+* Implemented logging buttons
+
+Release v1.3:
+* implemented login page, a username and password is now required to log in to the raspberry wap. 
+* bugfixes for captive portal, the captive portal now works across reboots.
+* also other functions are retained across reboots
+
+Release v1.4:
+* implemented openvpn server on request
+
+Release v1.5
+* switched to the latest minibian (Raspbian Jessie)
+
+
+Targeted for future releases:
+* Advanced wireless configuration (hostapd)
+* Port forwarding (iptables)
+* Network Filter (firewall)
+* Web Filter (privoxy)
+* Proxy (squid, squidguard)
